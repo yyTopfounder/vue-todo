@@ -11,7 +11,8 @@
     "clean": "rimraf dist",
     "lint": "eslint --ext .js --ext .jsx --ext .vue src/",
     "lint-fix": "eslint --fix --ext .js --ext .jsx --ext .vue src/",
-    "precommit": "npm run lint-fix"
+    "precommit": "npm run lint-fix",
+    "practice": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.practice.js"
   },
   "author": "",
   "license": "ISC",
